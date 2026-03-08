@@ -1,0 +1,8 @@
+services:
+  - type: web
+    name: aim-health-static
+    env: static
+    buildCommand: ""
+    staticPublishPath: ./
+    customDomains:
+      - aimhealthinc.com # Change this to your actual custom domain
