@@ -6,3 +6,4 @@ services:
     staticPublishPath: ./
     customDomains:
       - americaninstituteofmentalhealth.com
+      - aimtomentalhealth.com
