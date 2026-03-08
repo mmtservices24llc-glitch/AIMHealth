@@ -176,7 +176,14 @@ a {
     letter-spacing: -0.5px;
     display: flex;
     align-items: center;
-    gap: 8px;
+    gap: 12px;
+}
+
+.nav-logo {
+    height: 50px;
+    width: auto;
+    border-radius: 50%; /* Make circular image round */
+    box-shadow: var(--shadow-sm);
 }
 
 .logo-accent {
@@ -572,9 +579,26 @@ a {
     border-top: 1px solid #e2e8f0;
 }
 
-.footer-logo {
+.footer-brand {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.footer-logo-img {
+    height: 80px;
+    width: auto;
+    border-radius: 50%;
+    box-shadow: var(--shadow-sm);
+}
+
+.footer-logo-text {
     color: var(--secondary);
-    margin-bottom: 1rem;
+    font-family: var(--font-heading);
+    font-weight: 700;
+    font-size: 1.5rem;
 }
 
 /* Responsive */
