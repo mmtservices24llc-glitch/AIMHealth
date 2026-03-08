@@ -5,4 +5,4 @@ services:
     buildCommand: ""
     staticPublishPath: ./
     customDomains:
-      - aimhealthinc.com # Change this to your actual custom domain
+      - americaninstituteofmentalhealth.com
